@@ -1,0 +1,145 @@
+.main{
+    position: relative;
+    font-family: Archia,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.skillpara{
+    
+  
+    margin: 100px 100px auto;
+    width: 400px;
+    height: 250px;
+   
+}
+.skillcontent{
+    
+    font-size: 45px;
+    font-weight: 500;
+}
+.dot-green{
+    font-family: Varela,sans-serif;
+    color: rgb(84, 210, 84);
+    
+}
+.skillparaa{
+    position: absolute;
+    
+   width: 400px;
+   height: 250px;
+    margin: 100px 700px auto;
+
+}
+.skillcontentt{
+    font-size: 20px;
+    
+
+}
+
+.list{
+   
+    margin-top: 50px;
+    margin-left: 50px;
+    
+    
+    
+    
+}
+
+
+.icon{
+    display: flex;
+   
+    width: 56px;
+    height: 56px;
+    margin-right: 24px;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+    border-radius: 100px;
+    background-color: white;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.273);
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.title{
+    position: absolute;
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 100px;
+    
+    
+}
+
+.list-line{
+    position:absolute;
+    left: 115px;
+    top: 0px;
+    right: auto;
+    height: 100px;
+    bottom: 0;
+    width: 1px;
+    margin-top: 103px;
+    margin-bottom: -14px;
+    border-left: 1px dashed rgba(30,30,47,.6)
+}
+.list-linet{
+    position:absolute;
+    left: 115px;
+    top: 0px;
+    right: auto;
+    height: 100px;
+    bottom: 0;
+    width: 1px;
+    margin-top: 103px;
+    margin-bottom: -14px;
+    border-left: 1px dashed rgba(30,30,47,.6)
+}
+.all{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+
+}
+.qualityoption{
+    position: absolute;
+    display: inline;
+    padding: 5px;
+}
+.skilllist{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    max-width: 270px;
+    margin-right: 60px;
+   
+
+}
+.licontent{
+    margin: 30px 50px auto;
+}
+.content{
+    color: rgba(30,30,47,.8);
+    margin-bottom: 16px;
+    margin-left: 100px;
+    
+}
+.experience{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 500px ;
+}
+
+
+
+

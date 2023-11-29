@@ -1,0 +1,195 @@
+
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.text{
+    position: relative;
+    display: block;
+    text-align: start;
+    margin: 100px 80px auto;
+    -webkit-font-smoothing: antialiased;
+}
+.font{
+    margin-top: 0;
+    margin-bottom: 90px;
+    font-size: 80px;
+    line-height: 1em;
+    font-weight: 500;
+}
+.dot{
+    font-family: Varela,sans-serif;
+
+    
+}
+.container{ 
+    
+    position:absolute;
+    display: inline-flex;
+    width: 100%;
+    height: 590px;
+    margin: 30px 230px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+        
+
+}
+.box-look1{
+    position: relative;    
+    border-radius: 30px;
+    cursor: pointer;
+    height: 590px;
+    width: 400px;
+    min-width: 100%;
+    object-fit: cover;
+   
+}
+.box-look2{
+    position: relative;    
+    border-radius: 30px;
+    cursor: pointer;
+    height: 590px;
+    width: 130px;
+    min-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: transform .4s ease-in-out;
+}
+.box-look3{
+    position: relative;    
+    border-radius: 30px;
+    cursor: pointer;
+    height: 590px;
+    width: 130px;
+    min-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: transform .4s ease-in-out;
+}
+.box1{
+
+   
+}
+.form{
+    position:absolute;
+    display: block !important;
+    
+    
+}
+.input.mod--hero:hover {
+    box-shadow: 0 46px 50px 0 rgba(0,0,0,.1);
+    
+}
+.input.mod--hero {
+    width: 450px;
+    height: 120px;
+    margin-bottom: 0;
+    padding-left: 50px;
+    border-width: 1px;
+    border-color: #fff;
+    box-shadow: 0 46px 50px 0 rgba(0,0,0,.03);
+    font-size: 20px;
+}
+.input:hover {
+    border-color: #65ce59;
+}
+.input {
+    position: absolute;
+    z-index:0;
+    width: 300px;
+    height: 64px;
+    top:420px;
+    left: 50px;
+    padding-left: 25px;
+    border: 10px solid rgba(26, 219, 0, 0.856);
+    border-radius: 0;
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-size: 16px;
+    
+}
+.w-input, .w-select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #65ce59;
+    
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.btn-submit.stroke--btn-1 {
+    -webkit-text-stroke: 1px #1e1e2f;
+}
+.btn-submit.mod--hero {
+    width: 120px;
+    font-size: 34px;
+}
+.input.mod--hero:focus {
+    border-color: #65ce59 ;
+   
+}
+
+.input.mod--hero:hover {
+    box-shadow: 0 46px 50px 0 rgba(0,0,0,.1);
+}
+.btn-submit {
+    position: absolute;
+    right: auto;
+    top: 420px;
+    left:420px;
+    bottom: 0;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 64px;
+    height: 120px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    text-align: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #97c680;
+    box-shadow: inset 0 0 0 0 #feba88;
+    -webkit-transition: .3s;
+    transition: .3s;
+    color: #1e1e2f;
+    
+}
+.w-button {
+    display: inline-block;
+    padding: 30px 15px;
+    background-color:#88ce59;
+    color: #222124;
+    border: 60px;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+a {
+    background-color: transparent;
+    
+    -webkit-transition: .3s;
+    transition: .3s;
+    text-decoration: underline;
+}
+.btn-submit.mod--hero:hover {
+    box-shadow: inset 0 -120px 0 0 #feba88;
+}
+
+
